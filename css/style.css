@@ -58,6 +58,9 @@ input {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 16px;
 }
 
 .header-logo-title {
@@ -119,12 +122,14 @@ input {
 }
 
 .header-list {
-  display: flex;
+  /* display: flex; */
+  display: none;
   gap: 40px;
 }
 
 .header-address-list {
-  display: flex;
+  /* display: flex; */
+  display: none;
   gap: 40px;
 }
 
@@ -136,6 +141,15 @@ input {
 .header .container {
   display: flex;
   align-items: center;
+}
+
+.header-button {
+  border: none;
+  background-color: transparent;
+}
+
+.header-button-icon {
+  fill: #2e2f42;
 }
 
 body {
